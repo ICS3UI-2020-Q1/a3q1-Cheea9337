@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Sample",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "5\r\n10\r\n-3",
+      "output": "Please enter three integers on separate lines\r\nMaximum: 10",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Start",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "15\r\n5\r\n-3",
+      "output": "Please enter three integers on separate lines\r\nMaximum: 15",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
